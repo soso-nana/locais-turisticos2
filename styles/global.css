@@ -29,6 +29,25 @@ h2 {
     margin-block: 0.2rem 0.8rem;
 }
 
-h1, h2, h3{
+h1, h2, h3 {
     color: var(--text-primary);
+}
+
+h4 {
+    color: var(--text-secundary);
+    font-size: 1.6rem;
+}
+
+p {
+    color: var(--text-secundary);
+}
+
+ul {
+    padding-left: 2.4rem;
+    font-weight: 700;
+
+
+    li::marker {
+        color: var(--text-secundary);
+    }
 }
